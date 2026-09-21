@@ -1,20 +1,12 @@
 # MediaPipe Kinematic Tracking & 3D World Coordinate Benchmarking
 
-<<<<<<< HEAD
 An end-to-end Python processing and evaluation pipeline for monocular markerless motion capture (MMC). This repository extends a benchmark framework by evaluating **MediaPipe Pose** (2D normalised vs. 3D real-world coordinates in meters) against 100 Hz optical motion capture (OMC) ground truth.
-=======
-An end-to-end Python processing and evaluation pipeline for monocular markerless motion capture (MMC). Developed at the **Insight SFI Centre for Data Analytics (UCD)**, this repository extends the benchmark framework established by Aderinola et al. (2023) by evaluating **MediaPipe Pose** (2D normalized vs. 3D real-world coordinates in meters) against 100 Hz optical motion capture (OMC) ground truth[cite: 1].
->>>>>>> 303e964aeca0b7d7d31b434299de7ee44e351f85
 
 ---
 
 ## 📌 Context & Motivation
 
-<<<<<<< HEAD
 Prior work evaluated 2D OpenPose keypoints across 12 motor tasks using a single smartphone setup. While 2D monocular tracking demonstrated high agreement for vertical jump height and barbell velocity, it showed inaccuracy when used for more advanced tasks including 3D angle metrics.
-=======
-Prior work evaluated 2D OpenPose keypoints across 12 motor tasks using a single smartphone setup[cite: 1]. While 2D monocular tracking demonstrated high agreement for vertical jump height and barbell velocity, it showed inaccuracy when used for more advanced tasks including 3D angle metrics.
->>>>>>> 303e964aeca0b7d7d31b434299de7ee44e351f85
 
 This repository addresses those limitations by:
 1. Upgrading the processing pipeline to **MediaPipe Pose**.
@@ -91,7 +83,6 @@ Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical
 * **World Coordinate Advantage:** Transitioning to real-world camera-centric metrics (`3D-world`) markedly improved rotational joint accuracy—halving internal hip rotation error compared to normalised 3D data (**12.2°** vs **28.4°**).
 * **3D Normalised Artifacts:** `3D-norm` coordinates consistently suffered from higher distortion during out-of-plane rotational movements due to depth-scale ambiguity.
 * **Complex Multi-Joint Tasks:** *Single Leg Squat* exhibited consistent error (~22°–25° MAE) across all coordinate spaces, highlighting ongoing challenges with this type of motion.
-
 
 
 ## 🚀 Quick Start
