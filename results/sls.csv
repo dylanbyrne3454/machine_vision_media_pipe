@@ -1,0 +1,3 @@
+,Metric,Task,PTM Ref,Ground Truth,MAE,Reliability,ICC
+0,Range of motion,Single leg squat,N/A,Optical motion capture,22.41,0.54,0.36
+1,Angular velocity,Single leg squat,N/A,Optical motion capture,31.23,0.53,0.32

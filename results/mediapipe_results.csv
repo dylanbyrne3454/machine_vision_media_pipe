@@ -1,0 +1,28 @@
+PTM Ref,Ground Truth,MAE,Reliability,ICC
+N/A,Optical motion capture,5.04,0.58,0.39
+N/A,Optical motion capture,31.23,0.53,0.32
+height,Force plates,0.04,0.47,0.81
+height,Force plates,0.06,0.58,0.66
+height,Force plates,0.1,0.91,0.82
+height,Force plates,0.05,0.32,0.34
+height,Force plates,0.07,0.18,0.21
+height,Force plates,0.07,0.68,0.6
+gravity,Force plates,6.21,0.97,0.77
+height,Force plates,2.52,0.98,0.95
+gravity,Force plates,5.05,0.84,0.53
+height,Force plates,2.36,0.88,0.76
+height,Force plates,3.0,0.83,0.8
+height,Force plates,2.29,0.67,0.62
+barbell,Optical motion capture,0.05,0.85,0.76
+height,Optical motion capture,0.04,0.83,0.86
+barbell,Optical motion capture,0.08,0.82,0.87
+height,Optical motion capture,0.06,0.8,0.92
+barbell,Optical motion capture,0.1,0.85,0.85
+height,Optical motion capture,0.05,0.85,0.95
+barbell,Optical motion capture,0.21,0.9,0.8
+height,Optical motion capture,0.11,0.89,0.94
+N/A,Optical motion capture,8.36,0.94,0.63
+N/A,Optical motion capture,21.37,0.87,0.13
+N/A,Optical motion capture,11.93,0.6,0.41
+N/A,Optical motion capture,22.41,0.54,0.36
+N/A,Optical motion capture,10.26,0.78,0.64

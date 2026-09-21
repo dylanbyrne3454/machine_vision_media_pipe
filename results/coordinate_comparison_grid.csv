@@ -1,0 +1,8 @@
+Task,Metric,2D-norm,2D-world,3D-norm,3D-world
+Hip external rotation,Range of motion,8.36,8.8,25.41,12.21
+Hip internal rotation,Range of motion,21.37,14.49,28.41,12.16
+Nordic curl,Angular velocity,5.04,7.21,9.17,7.22
+Nordic curl,Range of motion,11.93,17.05,22.67,16.84
+Single leg squat,Angular velocity,31.23,32.68,29.02,35.77
+Single leg squat,Range of motion,22.41,22.94,21.89,25.06
+Straight leg raise,Range of motion,10.26,5.14,10.22,5.39

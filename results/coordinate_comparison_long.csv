@@ -1,0 +1,29 @@
+Task,Metric,Method,MAE,ICC,Reliability
+Nordic curl,Range of motion,2D-norm,11.93,0.41,0.6
+Nordic curl,Angular velocity,2D-norm,5.04,0.39,0.58
+Nordic curl,Range of motion,2D-world,17.05,0.39,0.57
+Nordic curl,Angular velocity,2D-world,7.21,0.38,0.57
+Nordic curl,Range of motion,3D-norm,22.67,0.32,0.58
+Nordic curl,Angular velocity,3D-norm,9.17,0.34,0.54
+Nordic curl,Range of motion,3D-world,16.84,0.39,0.58
+Nordic curl,Angular velocity,3D-world,7.22,0.38,0.58
+Straight leg raise,Range of motion,2D-norm,10.26,0.64,0.78
+Straight leg raise,Range of motion,2D-world,5.14,0.81,0.94
+Straight leg raise,Range of motion,3D-norm,10.22,0.28,0.2
+Straight leg raise,Range of motion,3D-world,5.39,0.77,0.76
+Single leg squat,Range of motion,2D-norm,22.41,0.36,0.54
+Single leg squat,Angular velocity,2D-norm,31.23,0.32,0.53
+Single leg squat,Range of motion,2D-world,22.94,0.26,0.75
+Single leg squat,Angular velocity,2D-world,32.68,0.29,0.76
+Single leg squat,Range of motion,3D-norm,21.89,0.29,0.48
+Single leg squat,Angular velocity,3D-norm,29.02,0.31,0.47
+Single leg squat,Range of motion,3D-world,25.06,0.19,0.72
+Single leg squat,Angular velocity,3D-world,35.77,0.13,0.75
+Hip internal rotation,Range of motion,2D-norm,21.37,0.13,0.87
+Hip external rotation,Range of motion,2D-norm,8.36,0.63,0.94
+Hip internal rotation,Range of motion,2D-world,14.49,0.2,0.94
+Hip external rotation,Range of motion,2D-world,8.8,0.62,0.94
+Hip internal rotation,Range of motion,3D-norm,28.41,-0.02,0.87
+Hip external rotation,Range of motion,3D-norm,25.41,0.13,0.89
+Hip internal rotation,Range of motion,3D-world,12.16,0.21,0.88
+Hip external rotation,Range of motion,3D-world,12.21,0.52,0.93

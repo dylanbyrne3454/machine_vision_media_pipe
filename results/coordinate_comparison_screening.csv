@@ -1,0 +1,273 @@
+task,subject,method,coord_dims,coord_source,mmc_rom,omc_rom,error
+Nordic curl,P03,2D_norm,2D,normalized,95.14,88.99,6.16
+Nordic curl,P03,3D_norm,3D,normalized,125.59,88.99,36.6
+Nordic curl,P03,2D_world,2D,world,105.86,88.99,16.87
+Nordic curl,P03,3D_world,3D,world,107.35,88.99,18.36
+Nordic curl,P04,2D_norm,2D,normalized,139.21,122.13,17.08
+Nordic curl,P04,3D_norm,3D,normalized,140.66,122.13,18.54
+Nordic curl,P04,2D_world,2D,world,125.2,122.13,3.07
+Nordic curl,P04,3D_world,3D,world,121.36,122.13,0.76
+Nordic curl,P05,2D_norm,2D,normalized,135.49,127.58,7.91
+Nordic curl,P05,3D_norm,3D,normalized,134.2,127.58,6.62
+Nordic curl,P05,2D_world,2D,world,116.46,127.58,11.12
+Nordic curl,P05,3D_world,3D,world,115.41,127.58,12.17
+Nordic curl,P06,2D_norm,2D,normalized,116.73,95.42,21.31
+Nordic curl,P06,3D_norm,3D,normalized,127.71,95.42,32.3
+Nordic curl,P06,2D_world,2D,world,113.47,95.42,18.06
+Nordic curl,P06,3D_world,3D,world,112.4,95.42,16.99
+Nordic curl,P07,2D_norm,2D,normalized,106.18,87.99,18.19
+Nordic curl,P07,3D_norm,3D,normalized,121.57,87.99,33.58
+Nordic curl,P07,2D_world,2D,world,96.43,87.99,8.44
+Nordic curl,P07,3D_world,3D,world,97.53,87.99,9.54
+Nordic curl,P08,2D_norm,2D,normalized,131.82,109.02,22.8
+Nordic curl,P08,3D_norm,3D,normalized,141.21,109.02,32.19
+Nordic curl,P08,2D_world,2D,world,121.07,109.02,12.05
+Nordic curl,P08,3D_world,3D,world,121.71,109.02,12.69
+Nordic curl,P09,2D_norm,2D,normalized,133.97,105.9,28.07
+Nordic curl,P09,3D_norm,3D,normalized,136.36,105.9,30.46
+Nordic curl,P09,2D_world,2D,world,124.82,105.9,18.92
+Nordic curl,P09,3D_world,3D,world,124.91,105.9,19.01
+Nordic curl,P10,2D_norm,2D,normalized,117.74,116.8,0.94
+Nordic curl,P10,3D_norm,3D,normalized,134.56,116.8,17.75
+Nordic curl,P10,2D_world,2D,world,109.84,116.8,6.96
+Nordic curl,P10,3D_world,3D,world,108.28,116.8,8.53
+Nordic curl,P11,2D_norm,2D,normalized,127.31,97.22,30.08
+Nordic curl,P11,3D_norm,3D,normalized,134.54,97.22,37.31
+Nordic curl,P11,2D_world,2D,world,123.07,97.22,25.85
+Nordic curl,P11,3D_world,3D,world,123.5,97.22,26.28
+Nordic curl,P12,2D_norm,2D,normalized,124.51,96.69,27.83
+Nordic curl,P12,3D_norm,3D,normalized,130.01,96.69,33.32
+Nordic curl,P12,2D_world,2D,world,120.07,96.69,23.39
+Nordic curl,P12,3D_world,3D,world,119.43,96.69,22.74
+Nordic curl,P13,2D_norm,2D,normalized,126.12,93.28,32.84
+Nordic curl,P13,3D_norm,3D,normalized,140.89,93.28,47.61
+Nordic curl,P13,2D_world,2D,world,126.29,93.28,33.01
+Nordic curl,P13,3D_world,3D,world,126.04,93.28,32.76
+Nordic curl,P14,2D_norm,2D,normalized,148.69,99.87,48.82
+Nordic curl,P14,3D_norm,3D,normalized,140.36,99.87,40.49
+Nordic curl,P14,2D_world,2D,world,154.37,99.87,54.5
+Nordic curl,P14,3D_world,3D,world,149.28,99.87,49.4
+Nordic curl,P15,2D_norm,2D,normalized,131.89,112.66,19.23
+Nordic curl,P15,3D_norm,3D,normalized,142.25,112.66,29.59
+Nordic curl,P15,2D_world,2D,world,124.96,112.66,12.3
+Nordic curl,P15,3D_world,3D,world,125.17,112.66,12.51
+Nordic curl,P16,2D_norm,2D,normalized,130.81,110.65,20.16
+Nordic curl,P16,3D_norm,3D,normalized,134.74,110.65,24.09
+Nordic curl,P16,2D_world,2D,world,119.89,110.65,9.23
+Nordic curl,P16,3D_world,3D,world,119.93,110.65,9.28
+Nordic curl,P17,2D_norm,2D,normalized,133.1,104.16,28.94
+Nordic curl,P17,3D_norm,3D,normalized,135.3,104.16,31.14
+Nordic curl,P17,2D_world,2D,world,130.28,104.16,26.12
+Nordic curl,P17,3D_world,3D,world,129.54,104.16,25.38
+Nordic curl,P18,2D_norm,2D,normalized,141.31,120.67,20.64
+Nordic curl,P18,3D_norm,3D,normalized,151.42,120.67,30.75
+Nordic curl,P18,2D_world,2D,world,125.03,120.67,4.36
+Nordic curl,P18,3D_world,3D,world,126.76,120.67,6.1
+Single leg squat,P03,2D_norm,2D,normalized,126.19,81.37,44.82
+Single leg squat,P03,3D_norm,3D,normalized,122.45,81.37,41.08
+Single leg squat,P03,2D_world,2D,world,83.48,81.37,2.11
+Single leg squat,P03,3D_world,3D,world,83.16,81.37,1.79
+Single leg squat,P04,2D_norm,2D,normalized,110.82,56.13,54.69
+Single leg squat,P04,3D_norm,3D,normalized,121.8,56.13,65.68
+Single leg squat,P04,2D_world,2D,world,64.17,56.13,8.04
+Single leg squat,P04,3D_world,3D,world,64.62,56.13,8.5
+Single leg squat,P05,2D_norm,2D,normalized,115.96,79.69,36.28
+Single leg squat,P05,3D_norm,3D,normalized,129.78,79.69,50.1
+Single leg squat,P05,2D_world,2D,world,76.39,79.69,3.3
+Single leg squat,P05,3D_world,3D,world,75.22,79.69,4.47
+Single leg squat,P06,2D_norm,2D,normalized,107.08,65.21,41.86
+Single leg squat,P06,3D_norm,3D,normalized,119.71,65.21,54.49
+Single leg squat,P06,2D_world,2D,world,64.84,65.21,0.37
+Single leg squat,P06,3D_world,3D,world,62.4,65.21,2.81
+Single leg squat,P07,2D_norm,2D,normalized,119.37,73.23,46.14
+Single leg squat,P07,3D_norm,3D,normalized,129.76,73.23,56.53
+Single leg squat,P07,2D_world,2D,world,72.51,73.23,0.72
+Single leg squat,P07,3D_world,3D,world,73.02,73.23,0.21
+Single leg squat,P08,2D_norm,2D,normalized,129.09,81.55,47.54
+Single leg squat,P08,3D_norm,3D,normalized,125.98,81.55,44.43
+Single leg squat,P08,2D_world,2D,world,86.06,81.55,4.51
+Single leg squat,P08,3D_world,3D,world,86.55,81.55,5.0
+Single leg squat,P09,2D_norm,2D,normalized,86.02,57.04,28.98
+Single leg squat,P09,3D_norm,3D,normalized,92.25,57.04,35.21
+Single leg squat,P09,2D_world,2D,world,45.64,57.04,11.4
+Single leg squat,P09,3D_world,3D,world,45.25,57.04,11.79
+Single leg squat,P10,2D_norm,2D,normalized,102.45,61.75,40.7
+Single leg squat,P10,3D_norm,3D,normalized,113.8,61.75,52.05
+Single leg squat,P10,2D_world,2D,world,63.63,61.75,1.88
+Single leg squat,P10,3D_world,3D,world,62.06,61.75,0.31
+Single leg squat,P11,2D_norm,2D,normalized,106.35,76.46,29.89
+Single leg squat,P11,3D_norm,3D,normalized,116.93,76.46,40.47
+Single leg squat,P11,2D_world,2D,world,74.34,76.46,2.12
+Single leg squat,P11,3D_world,3D,world,76.34,76.46,0.12
+Single leg squat,P12,2D_norm,2D,normalized,117.85,76.31,41.55
+Single leg squat,P12,3D_norm,3D,normalized,127.09,76.31,50.78
+Single leg squat,P12,2D_world,2D,world,73.02,76.31,3.29
+Single leg squat,P12,3D_world,3D,world,73.41,76.31,2.9
+Single leg squat,P13,2D_norm,2D,normalized,123.09,76.9,46.19
+Single leg squat,P13,3D_norm,3D,normalized,120.99,76.9,44.09
+Single leg squat,P13,2D_world,2D,world,76.31,76.9,0.59
+Single leg squat,P13,3D_world,3D,world,74.63,76.9,2.28
+Single leg squat,P14,2D_norm,2D,normalized,115.19,69.46,45.73
+Single leg squat,P14,3D_norm,3D,normalized,122.87,69.46,53.41
+Single leg squat,P14,2D_world,2D,world,69.26,69.46,0.2
+Single leg squat,P14,3D_world,3D,world,70.1,69.46,0.64
+Single leg squat,P15,2D_norm,2D,normalized,116.58,73.61,42.97
+Single leg squat,P15,3D_norm,3D,normalized,124.44,73.61,50.83
+Single leg squat,P15,2D_world,2D,world,75.96,73.61,2.35
+Single leg squat,P15,3D_world,3D,world,74.71,73.61,1.1
+Single leg squat,P16,2D_norm,2D,normalized,120.44,65.74,54.7
+Single leg squat,P16,3D_norm,3D,normalized,122.55,65.74,56.8
+Single leg squat,P16,2D_world,2D,world,80.71,65.74,14.96
+Single leg squat,P16,3D_world,3D,world,80.25,65.74,14.5
+Single leg squat,P17,2D_norm,2D,normalized,128.92,78.47,50.46
+Single leg squat,P17,3D_norm,3D,normalized,112.18,78.47,33.71
+Single leg squat,P17,2D_world,2D,world,86.26,78.47,7.79
+Single leg squat,P17,3D_world,3D,world,85.22,78.47,6.76
+Single leg squat,P18,2D_norm,2D,normalized,108.82,68.83,39.99
+Single leg squat,P18,3D_norm,3D,normalized,120.01,68.83,51.19
+Single leg squat,P18,2D_world,2D,world,60.42,68.83,8.41
+Single leg squat,P18,3D_world,3D,world,59.84,68.83,8.99
+Hip external rotation,P03,2D_norm,2D,normalized,44.81,29.03,15.78
+Hip external rotation,P03,3D_norm,3D,normalized,23.99,29.03,5.04
+Hip external rotation,P03,2D_world,2D,world,30.61,29.03,1.59
+Hip external rotation,P03,3D_world,3D,world,28.15,29.03,0.88
+Hip external rotation,P04,2D_norm,2D,normalized,65.77,27.97,37.8
+Hip external rotation,P04,3D_norm,3D,normalized,18.71,27.97,9.26
+Hip external rotation,P04,2D_world,2D,world,69.05,27.97,41.09
+Hip external rotation,P04,3D_world,3D,world,62.26,27.97,34.29
+Hip external rotation,P05,2D_norm,2D,normalized,43.71,26.31,17.4
+Hip external rotation,P05,3D_norm,3D,normalized,34.45,26.31,8.15
+Hip external rotation,P05,2D_world,2D,world,39.47,26.31,13.16
+Hip external rotation,P05,3D_world,3D,world,37.1,26.31,10.79
+Hip external rotation,P06,2D_norm,2D,normalized,43.34,22.95,20.39
+Hip external rotation,P06,3D_norm,3D,normalized,47.29,22.95,24.33
+Hip external rotation,P06,2D_world,2D,world,33.45,22.95,10.5
+Hip external rotation,P06,3D_world,3D,world,35.07,22.95,12.12
+Hip external rotation,P07,2D_norm,2D,normalized,48.76,30.54,18.23
+Hip external rotation,P07,3D_norm,3D,normalized,132.13,30.54,101.59
+Hip external rotation,P07,2D_world,2D,world,45.37,30.54,14.83
+Hip external rotation,P07,3D_world,3D,world,62.38,30.54,31.84
+Hip external rotation,P08,2D_norm,2D,normalized,51.09,29.3,21.78
+Hip external rotation,P08,3D_norm,3D,normalized,116.7,29.3,87.39
+Hip external rotation,P08,2D_world,2D,world,43.54,29.3,14.24
+Hip external rotation,P08,3D_world,3D,world,54.61,29.3,25.3
+Hip external rotation,P10,2D_norm,2D,normalized,53.22,32.82,20.39
+Hip external rotation,P10,3D_norm,3D,normalized,85.05,32.82,52.23
+Hip external rotation,P10,2D_world,2D,world,44.97,32.82,12.15
+Hip external rotation,P10,3D_world,3D,world,45.69,32.82,12.87
+Hip external rotation,P11,2D_norm,2D,normalized,57.71,30.7,27.01
+Hip external rotation,P11,3D_norm,3D,normalized,79.2,30.7,48.5
+Hip external rotation,P11,2D_world,2D,world,52.73,30.7,22.03
+Hip external rotation,P11,3D_world,3D,world,54.51,30.7,23.8
+Hip external rotation,P13,2D_norm,2D,normalized,54.7,34.95,19.75
+Hip external rotation,P13,3D_norm,3D,normalized,30.34,34.95,4.61
+Hip external rotation,P13,2D_world,2D,world,54.81,34.95,19.86
+Hip external rotation,P13,3D_world,3D,world,50.06,34.95,15.11
+Hip external rotation,P14,2D_norm,2D,normalized,66.4,45.2,21.2
+Hip external rotation,P14,3D_norm,3D,normalized,81.45,45.2,36.24
+Hip external rotation,P14,2D_world,2D,world,63.55,45.2,18.35
+Hip external rotation,P14,3D_world,3D,world,65.88,45.2,20.67
+Hip external rotation,P15,2D_norm,2D,normalized,40.68,23.43,17.25
+Hip external rotation,P15,3D_norm,3D,normalized,20.27,23.43,3.17
+Hip external rotation,P15,2D_world,2D,world,28.51,23.43,5.07
+Hip external rotation,P15,3D_world,3D,world,33.65,23.43,10.22
+Hip external rotation,P16,2D_norm,2D,normalized,68.09,31.35,36.74
+Hip external rotation,P16,3D_norm,3D,normalized,51.78,31.35,20.43
+Hip external rotation,P16,2D_world,2D,world,61.48,31.35,30.13
+Hip external rotation,P16,3D_world,3D,world,53.99,31.35,22.63
+Hip external rotation,P17,2D_norm,2D,normalized,40.0,22.77,17.24
+Hip external rotation,P17,3D_norm,3D,normalized,124.82,22.77,102.06
+Hip external rotation,P17,2D_world,2D,world,28.05,22.77,5.29
+Hip external rotation,P17,3D_world,3D,world,43.5,22.77,20.73
+Hip external rotation,P18,2D_norm,2D,normalized,56.84,34.45,22.39
+Hip external rotation,P18,3D_norm,3D,normalized,73.42,34.45,38.97
+Hip external rotation,P18,2D_world,2D,world,49.71,34.45,15.27
+Hip external rotation,P18,3D_world,3D,world,49.98,34.45,15.53
+Hip internal rotation,P03,2D_norm,2D,normalized,72.94,75.5,2.56
+Hip internal rotation,P03,3D_norm,3D,normalized,80.25,75.5,4.75
+Hip internal rotation,P03,2D_world,2D,world,57.33,75.5,18.17
+Hip internal rotation,P03,3D_world,3D,world,57.64,75.5,17.86
+Hip internal rotation,P04,2D_norm,2D,normalized,86.36,69.0,17.36
+Hip internal rotation,P04,3D_norm,3D,normalized,34.19,69.0,34.81
+Hip internal rotation,P04,2D_world,2D,world,65.45,69.0,3.55
+Hip internal rotation,P04,3D_world,3D,world,60.34,69.0,8.66
+Hip internal rotation,P05,2D_norm,2D,normalized,84.5,70.51,14.0
+Hip internal rotation,P05,3D_norm,3D,normalized,128.63,70.51,58.12
+Hip internal rotation,P05,2D_world,2D,world,76.87,70.51,6.36
+Hip internal rotation,P05,3D_world,3D,world,84.66,70.51,14.15
+Hip internal rotation,P06,2D_norm,2D,normalized,48.94,55.82,6.88
+Hip internal rotation,P06,3D_norm,3D,normalized,41.81,55.82,14.02
+Hip internal rotation,P06,2D_world,2D,world,34.45,55.82,21.37
+Hip internal rotation,P06,3D_world,3D,world,34.63,55.82,21.19
+Hip internal rotation,P07,2D_norm,2D,normalized,67.73,60.43,7.31
+Hip internal rotation,P07,3D_norm,3D,normalized,41.24,60.43,19.19
+Hip internal rotation,P07,2D_world,2D,world,45.91,60.43,14.52
+Hip internal rotation,P07,3D_world,3D,world,43.05,60.43,17.38
+Hip internal rotation,P08,2D_norm,2D,normalized,70.14,56.4,13.73
+Hip internal rotation,P08,3D_norm,3D,normalized,42.53,56.4,13.87
+Hip internal rotation,P08,2D_world,2D,world,54.1,56.4,2.3
+Hip internal rotation,P08,3D_world,3D,world,53.21,56.4,3.19
+Hip internal rotation,P09,2D_norm,2D,normalized,85.54,69.63,15.91
+Hip internal rotation,P09,3D_norm,3D,normalized,65.63,69.63,4.0
+Hip internal rotation,P09,2D_world,2D,world,65.62,69.63,4.01
+Hip internal rotation,P09,3D_world,3D,world,66.87,69.63,2.76
+Hip internal rotation,P10,2D_norm,2D,normalized,68.25,57.51,10.74
+Hip internal rotation,P10,3D_norm,3D,normalized,45.88,57.51,11.63
+Hip internal rotation,P10,2D_world,2D,world,49.58,57.51,7.93
+Hip internal rotation,P10,3D_world,3D,world,47.7,57.51,9.82
+Hip internal rotation,P11,2D_norm,2D,normalized,51.65,35.82,15.83
+Hip internal rotation,P11,3D_norm,3D,normalized,68.63,35.82,32.82
+Hip internal rotation,P11,2D_world,2D,world,34.52,35.82,1.3
+Hip internal rotation,P11,3D_world,3D,world,41.26,35.82,5.44
+Hip internal rotation,P13,2D_norm,2D,normalized,52.68,45.11,7.57
+Hip internal rotation,P13,3D_norm,3D,normalized,41.48,45.11,3.62
+Hip internal rotation,P13,2D_world,2D,world,29.51,45.11,15.6
+Hip internal rotation,P13,3D_world,3D,world,30.85,45.11,14.25
+Hip internal rotation,P14,2D_norm,2D,normalized,58.42,52.79,5.63
+Hip internal rotation,P14,3D_norm,3D,normalized,29.2,52.79,23.59
+Hip internal rotation,P14,2D_world,2D,world,44.49,52.79,8.3
+Hip internal rotation,P14,3D_world,3D,world,42.28,52.79,10.51
+Hip internal rotation,P15,2D_norm,2D,normalized,62.0,50.4,11.6
+Hip internal rotation,P15,3D_norm,3D,normalized,42.66,50.4,7.74
+Hip internal rotation,P15,2D_world,2D,world,43.01,50.4,7.38
+Hip internal rotation,P15,3D_world,3D,world,43.01,50.4,7.38
+Hip internal rotation,P16,2D_norm,2D,normalized,52.78,47.4,5.38
+Hip internal rotation,P16,3D_norm,3D,normalized,30.79,47.4,16.61
+Hip internal rotation,P16,2D_world,2D,world,43.5,47.4,3.9
+Hip internal rotation,P16,3D_world,3D,world,39.54,47.4,7.86
+Hip internal rotation,P17,2D_norm,2D,normalized,59.28,53.79,5.49
+Hip internal rotation,P17,3D_norm,3D,normalized,138.63,53.79,84.83
+Hip internal rotation,P17,2D_world,2D,world,42.32,53.79,11.47
+Hip internal rotation,P17,3D_world,3D,world,66.56,53.79,12.77
+Hip internal rotation,P18,2D_norm,2D,normalized,76.62,66.42,10.21
+Hip internal rotation,P18,3D_norm,3D,normalized,41.65,66.42,24.77
+Hip internal rotation,P18,2D_world,2D,world,60.76,66.42,5.65
+Hip internal rotation,P18,3D_world,3D,world,58.46,66.42,7.96
+Straight leg raise,P03,2D_norm,2D,normalized,83.32,84.44,1.11
+Straight leg raise,P03,3D_norm,3D,normalized,83.61,84.44,0.82
+Straight leg raise,P03,2D_world,2D,world,89.43,84.44,4.99
+Straight leg raise,P03,3D_world,3D,world,89.08,84.44,4.64
+Straight leg raise,P04,2D_norm,2D,normalized,66.6,77.6,11.0
+Straight leg raise,P04,3D_norm,3D,normalized,82.74,77.6,5.14
+Straight leg raise,P04,2D_world,2D,world,77.78,77.6,0.19
+Straight leg raise,P04,3D_world,3D,world,79.28,77.6,1.68
+Straight leg raise,P06,2D_norm,2D,normalized,55.65,66.52,10.87
+Straight leg raise,P06,3D_norm,3D,normalized,60.52,66.52,6.0
+Straight leg raise,P06,2D_world,2D,world,68.61,66.52,2.1
+Straight leg raise,P06,3D_world,3D,world,68.46,66.52,1.94
+Straight leg raise,P08,2D_norm,2D,normalized,50.21,56.31,6.1
+Straight leg raise,P08,3D_norm,3D,normalized,84.58,56.31,28.27
+Straight leg raise,P08,2D_world,2D,world,69.04,56.31,12.73
+Straight leg raise,P08,3D_world,3D,world,69.01,56.31,12.7
+Straight leg raise,P11,2D_norm,2D,normalized,186.86,149.59,37.26
+Straight leg raise,P11,3D_norm,3D,normalized,181.43,149.59,31.83
+Straight leg raise,P11,2D_world,2D,world,160.42,149.59,10.83
+Straight leg raise,P11,3D_world,3D,world,156.85,149.59,7.26
+Straight leg raise,P14,2D_norm,2D,normalized,59.43,63.12,3.69
+Straight leg raise,P14,3D_norm,3D,normalized,144.97,63.12,81.85
+Straight leg raise,P14,2D_world,2D,world,167.47,63.12,104.34
+Straight leg raise,P14,3D_world,3D,world,167.03,63.12,103.91
+Straight leg raise,P15,2D_norm,2D,normalized,192.74,135.31,57.44
+Straight leg raise,P15,3D_norm,3D,normalized,179.83,135.31,44.52
+Straight leg raise,P15,2D_world,2D,world,174.21,135.31,38.9
+Straight leg raise,P15,3D_world,3D,world,174.45,135.31,39.14
