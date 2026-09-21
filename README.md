@@ -1,12 +1,12 @@
 # MediaPipe Kinematic Tracking & 3D World Coordinate Benchmarking
 
-An end-to-end Python processing and evaluation pipeline for monocular markerless motion capture (MMC). Developed at the **Insight SFI Centre for Data Analytics (UCD)**, this repository extends the benchmark framework established by Aderinola et al. (2023)[cite: 1] by evaluating **MediaPipe Pose** (2D normalized vs. 3D real-world coordinates in meters) against 100 Hz optical motion capture (OMC) ground truth[cite: 1].
+An end-to-end Python processing and evaluation pipeline for monocular markerless motion capture (MMC). This repository extends a benchmark framework by evaluating **MediaPipe Pose** (2D normalised vs. 3D real-world coordinates in meters) against 100 Hz optical motion capture (OMC) ground truth.
 
 ---
 
 ## 📌 Context & Motivation
 
-Prior work evaluated 2D OpenPose keypoints across 12 motor tasks using a single smartphone setup[cite: 1]. While 2D monocular tracking demonstrated high agreement for vertical jump height and barbell velocity, it showed inaccuracy when used for more advanced tasks including 3D angle metrics[cite: 1].
+Prior work evaluated 2D OpenPose keypoints across 12 motor tasks using a single smartphone setup. While 2D monocular tracking demonstrated high agreement for vertical jump height and barbell velocity, it showed inaccuracy when used for more advanced tasks including 3D angle metrics.
 
 This repository addresses those limitations by:
 1. Upgrading the processing pipeline to **MediaPipe Pose**.
@@ -53,15 +53,38 @@ This repository addresses those limitations by:
    * **3D World Coordinates:** Real-world 3D coordinates in meters centered at the subject's hip midpoint.
 
 2. **Signal Smoothing:**
-   Extracted keypoint series are smoothed using a second-order **Savitzky-Golay filter**[cite: 1] to preserve movement extrema (e.g., peak jump height, maximum range of motion) while filtering high-frequency jitter[cite: 1].
+   Extracted keypoint series are smoothed using a second-order **Savitzky-Golay filter** to preserve movement extrema (e.g., peak jump height, maximum range of motion) while filtering high-frequency jitter.
 
 3. **FFT Resampling & Synchronization:**
-   To align 30 fps smartphone video streams with 100 Hz Codamotion OMC ground truth, time-series data are upsampled using **Fast Fourier Transform (FFT) resampling** to minimize signal distortion[cite: 1].
+   To align 30 fps smartphone video streams with 100 Hz Codamotion OMC ground truth, time-series data are upsampled using **Fast Fourier Transform (FFT) resampling** to minimize signal distortion.
 
 4. **Repetition Segmentation:**
-   Automatically segments repetition windows around maximum displacement extrema[cite: 1].
+   Automatically segments repetition windows around maximum displacement extrema.
 
 ---
+## 📈 Key Results
+
+Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical motion capture (OMC) ground truth. Performance was quantified using Mean Absolute Error (MAE in degrees) across four MediaPipe coordinate representations: **2D Normalsed**, **2D World**, **3D Normalised**, and **3D World**.
+
+![Range of Motion MAE Matrix](results/coord_results_final.png)
+
+### MAE Breakdown (vs. OMC Ground Truth)
+
+| Movement Task | 2D-norm (° MAE) | 2D-world (° MAE) | 3D-norm (° MAE) | 3D-world (° MAE) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Hip external rotation** | **8.4** | 8.8 | 25.4 | 12.2 |
+| **Hip internal rotation** | 21.4 | 14.5 | 28.4 | **12.2** |
+| **Nordic curl** | **11.9** | 17.1 | 22.7 | 16.8 |
+| **Single leg squat** | 22.4 | 22.9 | **21.9** | 25.1 |
+| **Straight leg raise** | 10.3 | **5.1** | 10.2 | **5.4** |
+
+### Key Takeaways
+* **Planar Accuracy:** Plane movements (e.g., *Straight Leg Raise*) achieved the highest agreement with OMC, reaching errors as low as **5.1° MAE** (`2D-world`) and **5.4° MAE** (`3D-world`).
+* **World Coordinate Advantage:** Transitioning to real-world camera-centric metrics (`3D-world`) markedly improved rotational joint accuracy—halving internal hip rotation error compared to normalised 3D data (**12.2°** vs **28.4°**).
+* **3D Normalised Artifacts:** `3D-norm` coordinates consistently suffered from higher distortion during out-of-plane rotational movements due to depth-scale ambiguity.
+* **Complex Multi-Joint Tasks:** *Single Leg Squat* exhibited consistent error (~22°–25° MAE) across all coordinate spaces, highlighting ongoing challenges with this type of motion.
+
+
 
 ## 🚀 Quick Start
 
