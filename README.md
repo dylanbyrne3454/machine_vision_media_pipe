@@ -18,29 +18,29 @@ This repository addresses those limitations by:
 
 ```text
 ├── data/
-│   ├── keypoints/                  # Normalised and world co-ordinates
-│   ├── pickle/                     # OMC ground truths
-│   └── dj_manual_segs.json         # Manual segmentation metadata
+│   ├── keypoints/                # Normalised and world coordinates
+│   ├── pickle/                   # OMC ground truths
+│   └── dj_manual_segs.json       # Manual segmentation metadata
 ├── notebooks/
-│   ├── archive/                    # Legacy/experimental notebooks
+│   ├── archive/                  # Legacy/experimental notebooks
 │   ├── 01_mediapipe_normalised.ipynb
 │   ├── 02_full_coordinate_comparison_screening.ipynb
 │   ├── 03_full_cooridnate_comparison.ipynb
-│   └── posedata.py                 # Pose data handling utilities
-├── results/                        # Output plots and benchmarking metrics
-├── tasks/                          # Motor task scripts
-│   ├── cmj.py                      # Countermovement Jump
-│   ├── dj.py                       # Drop Jump
-│   ├── hip.py                      # Hip mobility
-│   ├── nordic.py                   # Nordic Hamstring exercise
-│   ├── rjt.py                      # Repeated Jump Test
-│   ├── slr.py                      # Straight Leg Raise
-│   ├── sls.py                      # Single Leg Squat
-│   └── velocity.py                 # Barbell/movement velocity tracking
-├── utilities/                      # Core helper routines
+│   └── posedata.py               # Pose data handling utilities
+├── results/                      # Output plots and benchmarking metrics
+├── tasks/                        # Motor task scripts
+│   ├── cmj.py                    # Countermovement Jump
+│   ├── dj.py                     # Drop Jump
+│   ├── hip.py                    # Hip mobility
+│   ├── nordic.py                 # Nordic Hamstring exercise
+│   ├── rjt.py                    # Repeated Jump Test
+│   ├── slr.py                    # Straight Leg Raise
+│   ├── sls.py                    # Single Leg Squat
+│   └── velocity.py               # Barbell/movement velocity tracking
+├── utilities/                    # Core helper routines
 ├── .gitignore
 ├── README.md
-└── requirements.txt                # Python dependencies
+└── requirements.txt              # Python dependencies
 ```
 
 ---
@@ -62,9 +62,10 @@ This repository addresses those limitations by:
    Automatically segments repetition windows around maximum displacement extrema.
 
 ---
+
 ## 📈 Key Results
 
-Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical motion capture (OMC) ground truth. Performance was quantified using Mean Absolute Error (MAE in degrees) across four MediaPipe coordinate representations: **2D Normalsed**, **2D World**, **3D Normalised**, and **3D World**.
+Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical motion capture (OMC) ground truth. Performance was quantified using Mean Absolute Error (MAE in degrees) across four MediaPipe coordinate representations: **2D Normalised**, **2D World**, **3D Normalised**, and **3D World**.
 
 ![Range of Motion MAE Matrix](results/coord_results_final.png)
 
@@ -84,6 +85,7 @@ Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical
 * **3D Normalised Artifacts:** `3D-norm` coordinates consistently suffered from higher distortion during out-of-plane rotational movements due to depth-scale ambiguity.
 * **Complex Multi-Joint Tasks:** *Single Leg Squat* exhibited consistent error (~22°–25° MAE) across all coordinate spaces, highlighting ongoing challenges with this type of motion.
 
+---
 
 ## 🚀 Quick Start
 
@@ -108,7 +110,7 @@ pip install -r requirements.txt
 
 This pipeline builds upon research conducted at the **Insight SFI Centre for Data Analytics, University College Dublin**:
 
-> **Aderinola, T. B., Younesian, H., Goulding, C., Whelan, D., Caulfield, B., & Ifrim, G.** (2023). *Machine Vision-Enabled Sports Performance Analysis*. arXiv preprint arXiv:2312.11340[cite: 1].
+> **Aderinola, T. B., Younesian, H., Goulding, C., Whelan, D., Caulfield, B., & Ifrim, G.** (2023). *Machine Vision-Enabled Sports Performance Analysis*. arXiv preprint arXiv:2312.11340.
 
 ---
 
