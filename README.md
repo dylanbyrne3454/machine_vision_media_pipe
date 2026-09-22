@@ -6,12 +6,7 @@ An end-to-end Python processing and evaluation pipeline for monocular markerless
 
 ## 📌 Context & Motivation
 
-Prior work evaluated 2D OpenPose keypoints across 12 motor tasks using a single smartphone setup. While 2D monocular tracking demonstrated high agreement for vertical jump height and barbell velocity, it showed inaccuracy when used for more advanced tasks including 3D angle metrics.
-
-This repository addresses those limitations by:
-1. Upgrading the processing pipeline to **MediaPipe Pose**.
-2. Benchmarking both 2D normalised (x, y, z) and 3D camera-centric world coordinates (X, Y, Z in meters) against 3D optical motion capture ground truth.
-
+Extends prior OpenPose work by upgrading the pipeline to MediaPipe Pose to benchmark 2D and native 3D world coordinates against optical motion capture ground truth.
 ---
 
 ## 🛠️ Repository Structure
@@ -59,8 +54,7 @@ This repository addresses those limitations by:
    To align 30 fps smartphone video streams with 100 Hz Codamotion OMC ground truth, time-series data are upsampled using **Fast Fourier Transform (FFT) resampling** to minimize signal distortion.
 
 4. **Repetition Segmentation:**
-   Automatically segments repetition windows around maximum displacement extrema.
-
+   Automatically segments repetition windows.
 ---
 
 ## 📈 Key Results
@@ -78,12 +72,6 @@ Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical
 | **Nordic curl** | **11.9** | 17.1 | 22.7 | 16.8 |
 | **Single leg squat** | 22.4 | 22.9 | **21.9** | 25.1 |
 | **Straight leg raise** | 10.3 | **5.1** | 10.2 | **5.4** |
-
-### Key Takeaways
-* **Planar Accuracy:** Plane movements (e.g., *Straight Leg Raise*) achieved the highest agreement with OMC, reaching errors as low as **5.1° MAE** (`2D-world`) and **5.4° MAE** (`3D-world`).
-* **World Coordinate Advantage:** Transitioning to real-world camera-centric metrics (`3D-world`) markedly improved rotational joint accuracy—halving internal hip rotation error compared to normalised 3D data (**12.2°** vs **28.4°**).
-* **3D Normalised Artifacts:** `3D-norm` coordinates consistently suffered from higher distortion during out-of-plane rotational movements due to depth-scale ambiguity.
-* **Complex Multi-Joint Tasks:** *Single Leg Squat* exhibited consistent error (~22°–25° MAE) across all coordinate spaces, highlighting ongoing challenges with this type of motion.
 
 ---
 
@@ -108,15 +96,5 @@ pip install -r requirements.txt
 
 ## 📖 Reference & Prior Work
 
-This pipeline builds upon research conducted at the **Insight SFI Centre for Data Analytics, University College Dublin**:
-
-> **Aderinola, T. B., Younesian, H., Goulding, C., Whelan, D., Caulfield, B., & Ifrim, G.** (2023). *Machine Vision-Enabled Sports Performance Analysis*. arXiv preprint arXiv:2312.11340.
-
----
-
-## References & Acknowledgments
-
 This repository extends the baseline pipeline introduced in:
 * **Aderinola et al. (2023)** — *Machine Vision-Enabled Sports Performance Analysis* ([arXiv:2312.11340](https://arxiv.org/abs/2312.11340))
-
-Developed by Dylan Byrne (UCD Electronic Engineering) under the supervision of Timilehin B. Aderinola at the Insight SFI Centre for Data Analytics.
