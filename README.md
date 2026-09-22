@@ -4,12 +4,12 @@ An end-to-end Python processing and evaluation pipeline for monocular markerless
 
 ---
 
-## 📌 Context & Motivation
+## Context & Motivation
 
 Extends prior OpenPose work by upgrading the pipeline to MediaPipe Pose to benchmark 2D and native 3D world coordinates against optical motion capture ground truth.
----
 
-## 🛠️ Repository Structure
+
+## Repository Structure
 
 ```text
 ├── data/
@@ -40,7 +40,7 @@ Extends prior OpenPose work by upgrading the pipeline to MediaPipe Pose to bench
 
 ---
 
-## 📊 Methodology & Signal Processing
+## Methodology & Signal Processing
 
 1. **Multi-Dimensional Keypoint Extraction:**
    Extracts 33 body landmarks frame-by-frame using MediaPipe Pose (`model_complexity=2`), yielding:
@@ -57,7 +57,7 @@ Extends prior OpenPose work by upgrading the pipeline to MediaPipe Pose to bench
    Automatically segments repetition windows.
 ---
 
-## 📈 Key Results
+## Key Results
 
 Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical motion capture (OMC) ground truth. Performance was quantified using Mean Absolute Error (MAE in degrees) across four MediaPipe coordinate representations: **2D Normalised**, **2D World**, **3D Normalised**, and **3D World**.
 
@@ -75,7 +75,7 @@ Range of motion (ROM) metrics were evaluated across tasks against 100 Hz optical
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 ```bash
