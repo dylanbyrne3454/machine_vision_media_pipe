@@ -114,8 +114,9 @@ This pipeline builds upon research conducted at the **Insight SFI Centre for Dat
 
 ---
 
-## 👨‍💻 Author
+## References & Acknowledgments
 
-**Dylan Byrne**  
-*Undergraduate Electronic Engineering Student, University College Dublin (UCD)*  
-Research conducted under the supervision of **Timilehin B. Aderinola** at **Insight SFI Centre for Data Analytics**.
+This repository extends the baseline pipeline introduced in:
+* **Aderinola et al. (2023)** — *Machine Vision-Enabled Sports Performance Analysis* ([arXiv:2312.11340](https://arxiv.org/abs/2312.11340))
+
+Developed by Dylan Byrne (UCD Electronic Engineering) under the supervision of Timilehin B. Aderinola at the Insight SFI Centre for Data Analytics.
